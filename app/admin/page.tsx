@@ -7,8 +7,6 @@ import { getRecentAppointmentList } from '@/lib/actions/appointment.actions'
 import {DataTable} from '@/components/table/DataTable'
 import {columns} from '@/components/table/columns'
 
-
-
 const Admin = () => {
     const [appointments, setAppointments] = React.useState({totalCounts: 0, pendingCount: 0, cancelledCount: 0, scheduledCount: 0, documents: []});
     const [isLoading, setIsLoading] = React.useState(true);
