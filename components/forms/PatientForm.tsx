@@ -49,24 +49,29 @@ const PatientForm = () => {
 
     try {
       // console.log("Form data:", { name, email, phone }); //  debugging
-
-      
       const userData = { name, email, phone };
       const user = await createUser(userData);
 
       if (user) {
         router.push(`/patients/${user.$id}/register`); // redirect to the next page
-      } else {
+      }
+      
+      else {
         console.log("User creation failed or user already exists.");
       }
-    } catch (error) {
+    }
+    
+    catch (error) {
       console.error("Error during user creation:", error); // added detailed error logging
-    } finally {
+    }
+    
+    finally {
       setIsLoading(false); //  loading state is reset
     }
   }
 
   return (
+    
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 flex-1">
         <section className="mb-12 space-y-4">
