@@ -20,7 +20,7 @@ export const createAppointment = async (
       return parseStringify(newAppointment);
       
     } catch (error) {
-      console.error("An error occurred while creating a new appointment:", error);
+      console.error("Oops! An error occurred while creating a new appointment:", error);
       return null;
     }
 };
@@ -79,7 +79,7 @@ export const getRecentAppointmentList = async () => {
     return parseStringify(data);
   } catch (error) {
     console.error(
-      "An error occurred while retrieving the recent appointments:",
+      "Oops! An error occurred while retrieving the recent appointments:",
       error
     );
   }
@@ -105,9 +105,9 @@ export const updateAppointment = async (
 
     const timeZone = 'Asia/Kolkata';
 
-    const smsMessage = `Greetings from CarePulse. ${
+    const smsMessage = `Greetings from CarePulse! ${
       type === "schedule"
-        ? `Your appointment is confirmed for ${formatDateTime(appointment.schedule!, timeZone).dateTime} with Dr. ${appointment.primaryPhysician}`
+        ? `Yay! Your appointment is confirmed for ${formatDateTime(appointment.schedule!, timeZone).dateTime} with Dr. ${appointment.primaryPhysician}`
         : `We regret to inform that your appointment for ${formatDateTime(appointment.schedule!, timeZone).dateTime} is cancelled. Reason: ${appointment.cancellationReason}`
     }.`
 
@@ -119,7 +119,7 @@ export const updateAppointment = async (
 
   } catch (error) {
     console.error(
-      "An error occurred while updating the appointment:",
+      "Oops! An error occurred while updating the appointment:",
       error
     );
     return null;
