@@ -29,6 +29,19 @@ import { createAppointment, updateAppointment } from "@/lib/actions/appointment.
 import { Appointment } from "@/types/appwrite.types"
 import { types } from "util"
 
+/**
+ * AppointmentForm component to handle the creation, scheduling, or cancellation of appointments.
+ *
+ * @param userId - The unique identifier for the user.
+ * @param patientId - The unique identifier for the patient.
+ * @param type - The type of operation for the form: "create", "cancel", or "schedule".
+ * @param appointment - Optional initial appointment details for updating or canceling an appointment.
+ * @param setOpen - Optional function to set the open state of a parent component.
+ *
+ * This component uses the react-hook-form library to manage form state and validation,
+ * and it adapts its fields and behavior based on the specified `type`.
+ * It handles form submission to either create a new appointment or update an existing one.
+ */
 export const AppointmentForm = ({
   userId,
   patientId,
