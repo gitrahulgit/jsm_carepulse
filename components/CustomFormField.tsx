@@ -68,8 +68,6 @@ const RenderField = ({field, props}: {field: any, props: CustomProps}) => {
 
             </FormControl>
           </div>
-          
-        
       )
 
       case FormFieldType.PHONE_INPUT:
@@ -83,7 +81,6 @@ const RenderField = ({field, props}: {field: any, props: CustomProps}) => {
             onChange={field.onChange}
             className='input-phone'
 
-            
             />
 
           </FormControl>
@@ -126,7 +123,6 @@ const RenderField = ({field, props}: {field: any, props: CustomProps}) => {
           </FormControl>
         );
 
-
       case FormFieldType.SELECT:
         // console.log('Rendering SelectContent with children:', props.children);
 
@@ -157,7 +153,6 @@ const RenderField = ({field, props}: {field: any, props: CustomProps}) => {
         </div>
 
         </FormControl>)
-      
       
       case FormFieldType.SKELETON:
         return renderSkeleton ? renderSkeleton(field) : null
