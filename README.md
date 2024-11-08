@@ -139,5 +139,3 @@ All public assets used within this project can be found [here](https://drive.goo
 - [Twilio Documentation](https://www.twilio.com/docs)
   
 ---
-
-CarePulse is designed to offer a modern and intuitive approach to hospital management, focusing on usability, performance, and efficiency. This guide should provide a clear path for developers to set up and work with the project locally. For further details on specific functionalities, please explore the individual modules and components within the codebase.
