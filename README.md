@@ -2,6 +2,8 @@
 
 CarePulse is a comprehensive healthcare patient management system designed to facilitate streamlined scheduling, registration, and appointment management. Built with Next.js, the platform provides an efficient user experience for both patients and administrators, integrating advanced features such as SMS notifications and file storage.
 
+![Landing Page]([http://url/to/img.png](https://github.com/gitrahulgit/jsm_carepulse/blob/main/public/assets/images/home-page-img.png))
+
 ## Table of Contents
 
 - [CarePulse - Patient Management System](#carepulse---patient-management-system)
