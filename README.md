@@ -1,36 +1,143 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CarePulse - Patient Management System
+
+CarePulse is a comprehensive healthcare patient management system designed to facilitate streamlined scheduling, registration, and appointment management. Built with Next.js, the platform provides an efficient user experience for both patients and administrators, integrating advanced features such as SMS notifications and file storage.
+
+## Table of Contents
+
+- [CarePulse - Patient Management System](#carepulse---patient-management-system)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Tech Stack](#tech-stack)
+  - [Features](#features)
+    - [Patient-Side Features](#patient-side-features)
+    - [Admin-Side Features](#admin-side-features)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Quick Start](#quick-start)
+  - [Project Dependencies](#project-dependencies)
+  - [Assets](#assets)
+  - [More Resources](#more-resources)
+
+---
+
+## Introduction
+
+CarePulse is a robust web-based application designed for healthcare organizations to manage patient registrations and appointments efficiently. The application allows patients to register, book, and manage their appointments seamlessly. Administrators have access to additional features, including appointment confirmations, cancellations, and SMS notifications to patients. The platform leverages Next.js for the front end, Appwrite for backend services, and Twilio for SMS functionality.
+
+## Tech Stack
+
+- **Next.js**: A powerful React framework for building web applications.
+- **Appwrite**: Backend-as-a-Service (BaaS) for database and storage management.
+- **TypeScript**: Provides static type-checking for improved code quality.
+- **TailwindCSS**: A utility-first CSS framework for responsive design.
+- **ShadCN**: For advanced UI components.
+- **Twilio**: SMS notification services.
+
+---
+
+## Features
+
+### Patient-Side Features
+
+1. **Patient Registration**: Users can create a profile with essential details for appointment management.
+2. **Appointment Booking**: Patients can book multiple appointments with available doctors.
+3. **File Upload**: Secure file storage through Appwrite for patient documents or reports.
+4. **Responsive Design**: Accessible across various devices and screen sizes.
+
+### Admin-Side Features
+
+1. **Appointment Management**: View and manage all scheduled appointments.
+2. **Appointment Confirmation and Scheduling**: Admins can confirm and schedule appointment times.
+3. **Appointment Cancellation**: Allows admins to cancel appointments when necessary.
+4. **SMS Notifications**: Automatically sends SMS notifications on appointment confirmation.
+5. **Performance Monitoring**: Integrated with Sentry for performance monitoring and error tracking.
+
+---
 
 ## Getting Started
 
-First, run the development server:
+To set up CarePulse on your local environment, follow the steps below.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Git**: Version control for cloning and managing the repository.
+- **Node.js**: Required for running the project.
+- **npm**: Node Package Manager for installing dependencies.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Quick Start
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Clone the Repository**
 
-## Learn More
+   ```bash
+   git clone https://github.com/thehackersbrain/carepulse.git
+   cd carepulse
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install Dependencies**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. **Set Up Environment Variables**
 
-## Deploy on Vercel
+   Create a `.env.local` file in the root directory and include the following variables:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```env
+   # Appwrite Configuration
+   NEXT_PUBLIC_ENDPOINT=https://cloud.appwrite.io/v1
+   PROJECT_ID=
+   API_KEY=
+   DATABASE_ID=
+   PATIENT_COLLECTION_ID=
+   APPOINTMENT_COLLECTION_ID=
+   NEXT_PUBLIC_BUCKET_ID=
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   # Admin Passkey
+   NEXT_PUBLIC_ADMIN_PASSKEY=111111
+   ```
+
+   Replace the placeholders with your Appwrite credentials, which can be obtained by signing up on the [Appwrite website](https://appwrite.io/).
+
+4. **Run the Development Server**
+
+   ```bash
+   npm run dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+---
+
+## Project Dependencies
+
+The CarePulse application relies on a variety of libraries and frameworks to deliver a seamless experience. Key dependencies include:
+
+- **Next.js**: For building scalable and performant web applications.
+- **React**: Core library for building interactive user interfaces.
+- **Tailwind CSS**: For responsive and flexible styling.
+- **Appwrite**: Backend management for handling database operations and file storage.
+- **Radix UI**: Accessible UI components for a consistent user experience.
+- **React Hook Form**: Simplifies form management.
+- **Zod**: Provides schema validation for better data handling.
+- **TypeScript**: Ensures static type checking for improved code quality.
+
+For a complete list of dependencies, refer to the `package.json` file.
+
+---
+
+## Assets
+
+All public assets used within this project can be found [here](https://drive.google.com/file/d/1yGvWFeSaH1_-aiQ1gejT23lqz5979RKB/view?usp=sharing).
+
+---
+
+## More Resources
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Appwrite Documentation](https://appwrite.io/docs)
+- [Twilio Documentation](https://www.twilio.com/docs)
+  
+---
+
+CarePulse is designed to offer a modern and intuitive approach to hospital management, focusing on usability, performance, and efficiency. This guide should provide a clear path for developers to set up and work with the project locally. For further details on specific functionalities, please explore the individual modules and components within the codebase.
