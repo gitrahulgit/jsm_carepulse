@@ -11,6 +11,19 @@ import {
 import { Button } from './ui/button';
 import { AppointmentForm } from './forms/AppointmentForm';
 import { Appointment } from '@/types/appwrite.types';
+
+/**
+ * AppointmentModal component to handle displaying a dialog for scheduling or canceling appointments.
+ *
+ * @param type - The operation type for the modal: "schedule" or "cancel".
+ * @param patientId - The unique identifier for the patient associated with the appointment.
+ * @param userId - The unique identifier for the user performing the action.
+ * @param appointment - Optional appointment details for pre-filling the form.
+ *
+ * This component renders a button that opens a dialog when clicked. The dialog contains
+ * the AppointmentForm component, which is used to manage the form state and submission
+ * for scheduling or canceling appointments.
+ */
 const AppointmentModal = ({
   type,
   patientId,
@@ -47,7 +60,6 @@ const AppointmentModal = ({
     appointment={appointment}
     
     />
-
 
   </DialogContent>
 </Dialog>
