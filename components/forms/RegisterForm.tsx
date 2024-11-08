@@ -227,7 +227,6 @@ const RegisterForm = ({user}: {user: User} ) => {
                     </SelectItem>
                 ))}
 
-
             </CustomFormField>
 
         <div className="flex flex-col gap-6 xl:flex-row">
@@ -338,7 +337,6 @@ const RegisterForm = ({user}: {user: User} ) => {
     </section>
 
     <CustomFormField
-    
     fieldType={FormFieldType.CHECKBOX}
     control={form.control}
     name="treatmentConsent"
@@ -346,7 +344,6 @@ const RegisterForm = ({user}: {user: User} ) => {
     />
 
 <CustomFormField
-    
     fieldType={FormFieldType.CHECKBOX}
     control={form.control}
     name="disclosureConsent"
@@ -354,17 +351,12 @@ const RegisterForm = ({user}: {user: User} ) => {
     />
 
 <CustomFormField
-    
     fieldType={FormFieldType.CHECKBOX}
     control={form.control}
     name="privacyConsent"
     label="I consent to the privacy policy."  
     />
-                
-
-
-
-
+    
         <SubmitButton isLoading={isLoading}>Get Started</SubmitButton>
       </form>
     </Form>
