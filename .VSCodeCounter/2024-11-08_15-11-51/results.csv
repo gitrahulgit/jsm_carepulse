@@ -1,0 +1,75 @@
+"filename", "language", "JSON", "TypeScript", "JavaScript", "JSON with Comments", "Markdown", "TypeScript JSX", "CSS", "XML", "comment", "blank", "total"
+"d:\carepulse\.eslintrc.json", "JSON", 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4
+"d:\carepulse\README.md", "Markdown", 0, 0, 0, 0, 99, 0, 0, 0, 0, 45, 144
+"d:\carepulse\app\admin\page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 72, 0, 0, 8, 11, 91
+"d:\carepulse\app\api\sentry-example-api\route.ts", "TypeScript", 0, 6, 0, 0, 0, 0, 0, 0, 1, 3, 10
+"d:\carepulse\app\global-error.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 16, 0, 0, 4, 3, 23
+"d:\carepulse\app\globals.css", "CSS", 0, 0, 0, 0, 0, 0, 257, 0, 18, 75, 350
+"d:\carepulse\app\layout.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 34, 0, 0, 0, 4, 38
+"d:\carepulse\app\page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 38, 0, 0, 1, 15, 54
+"d:\carepulse\app\patients\[userId]\new-appointment\page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 42, 0, 0, 0, 17, 59
+"d:\carepulse\app\patients\[userId]\new-appointment\success\page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 73, 0, 0, 0, 25, 98
+"d:\carepulse\app\patients\[userId]\register\page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 36, 0, 0, 1, 15, 52
+"d:\carepulse\app\sentry-example-page\page.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 74, 0, 0, 0, 6, 80
+"d:\carepulse\components.json", "JSON", 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17
+"d:\carepulse\components\AppointmentModal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 48, 0, 0, 12, 11, 71
+"d:\carepulse\components\CustomFormField.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 157, 0, 0, 1, 34, 192
+"d:\carepulse\components\FileUploader.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 49, 0, 0, 0, 5, 54
+"d:\carepulse\components\PasskeyModal.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 93, 0, 0, 0, 16, 109
+"d:\carepulse\components\StatCard.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 33, 0, 0, 0, 4, 37
+"d:\carepulse\components\StatusBadge.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 31, 0, 0, 0, 2, 33
+"d:\carepulse\components\SubmitButton.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 31, 0, 0, 0, 4, 35
+"d:\carepulse\components\forms\AppointmentForm.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 211, 0, 0, 13, 20, 244
+"d:\carepulse\components\forms\PatientForm.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 98, 0, 0, 1, 17, 116
+"d:\carepulse\components\forms\RegisterForm.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 310, 0, 0, 1, 55, 366
+"d:\carepulse\components\table\DataTable.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 111, 0, 0, 124, 18, 253
+"d:\carepulse\components\table\columns.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 92, 0, 0, 98, 25, 215
+"d:\carepulse\components\ui\alert-dialog.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 127, 0, 0, 0, 15, 142
+"d:\carepulse\components\ui\button.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 51, 0, 0, 0, 6, 57
+"d:\carepulse\components\ui\checkbox.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 26, 0, 0, 0, 5, 31
+"d:\carepulse\components\ui\dialog.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 109, 0, 0, 0, 14, 123
+"d:\carepulse\components\ui\dropdown-menu.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 182, 0, 0, 0, 19, 201
+"d:\carepulse\components\ui\form.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 153, 0, 0, 0, 26, 179
+"d:\carepulse\components\ui\input-otp.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 63, 0, 0, 0, 9, 72
+"d:\carepulse\components\ui\input.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 21, 0, 0, 0, 5, 26
+"d:\carepulse\components\ui\label.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 21, 0, 0, 0, 6, 27
+"d:\carepulse\components\ui\radio-group.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 39, 0, 0, 0, 6, 45
+"d:\carepulse\components\ui\select.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 146, 0, 0, 0, 15, 161
+"d:\carepulse\components\ui\table.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 107, 0, 0, 0, 11, 118
+"d:\carepulse\components\ui\textarea.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 20, 0, 0, 0, 5, 25
+"d:\carepulse\components\ui\theme-provider.tsx", "TypeScript JSX", 0, 0, 0, 0, 0, 7, 0, 0, 0, 3, 10
+"d:\carepulse\constants\index.ts", "TypeScript", 0, 82, 0, 0, 0, 0, 0, 0, 4, 4, 90
+"d:\carepulse\instrumentation.ts", "TypeScript", 0, 8, 0, 0, 0, 0, 0, 0, 0, 2, 10
+"d:\carepulse\lib\actions\appointment.actions.ts", "TypeScript", 0, 117, 0, 0, 0, 0, 0, 0, 1, 29, 147
+"d:\carepulse\lib\actions\patient.actions.ts", "TypeScript", 0, 81, 0, 0, 0, 0, 0, 0, 0, 17, 98
+"d:\carepulse\lib\appwrite.config.ts", "TypeScript", 0, 19, 0, 0, 0, 0, 0, 0, 8, 6, 33
+"d:\carepulse\lib\utils.ts", "TypeScript", 0, 61, 0, 0, 0, 0, 0, 0, 2, 14, 77
+"d:\carepulse\lib\validation.ts", "TypeScript", 0, 112, 0, 0, 0, 0, 0, 0, 0, 6, 118
+"d:\carepulse\next.config.mjs", "JavaScript", 0, 0, 21, 0, 0, 0, 0, 0, 19, 10, 50
+"d:\carepulse\package-lock.json", "JSON", 8962, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8963
+"d:\carepulse\package.json", "JSON", 50, 0, 0, 0, 0, 0, 0, 0, 0, 1, 51
+"d:\carepulse\postcss.config.mjs", "JavaScript", 0, 0, 6, 0, 0, 0, 0, 0, 1, 2, 9
+"d:\carepulse\public\assets\icons\appointments.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 4
+"d:\carepulse\public\assets\icons\arrow.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 4
+"d:\carepulse\public\assets\icons\calendar.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 4
+"d:\carepulse\public\assets\icons\cancelled.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 4
+"d:\carepulse\public\assets\icons\check-circle.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 23, 0, 1, 24
+"d:\carepulse\public\assets\icons\check.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 4
+"d:\carepulse\public\assets\icons\close.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 4
+"d:\carepulse\public\assets\icons\email.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 4
+"d:\carepulse\public\assets\icons\loader.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 26, 0, 0, 26
+"d:\carepulse\public\assets\icons\logo-full.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 46, 0, 1, 47
+"d:\carepulse\public\assets\icons\logo-icon.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 45, 0, 1, 46
+"d:\carepulse\public\assets\icons\pending.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 4
+"d:\carepulse\public\assets\icons\upload.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 4, 0, 1, 5
+"d:\carepulse\public\assets\icons\user.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 4
+"d:\carepulse\public\next.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+"d:\carepulse\public\vercel.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+"d:\carepulse\sentry.client.config.ts", "TypeScript", 0, 11, 0, 0, 0, 0, 0, 0, 10, 8, 29
+"d:\carepulse\sentry.edge.config.ts", "TypeScript", 0, 6, 0, 0, 0, 0, 0, 0, 6, 5, 17
+"d:\carepulse\sentry.server.config.ts", "TypeScript", 0, 6, 0, 0, 0, 0, 0, 0, 5, 5, 16
+"d:\carepulse\tailwind.config.ts", "TypeScript", 0, 78, 0, 0, 0, 0, 0, 0, 0, 3, 81
+"d:\carepulse\tsconfig.json", "JSON with Comments", 0, 0, 0, 26, 0, 0, 0, 0, 0, 1, 27
+"d:\carepulse\types\appwrite.types.ts", "TypeScript", 0, 34, 0, 0, 0, 0, 0, 0, 0, 2, 36
+"d:\carepulse\types\index.d.ts", "TypeScript", 0, 49, 0, 0, 0, 0, 0, 0, 10, 7, 66
+"Total", "-", 9032, 670, 27, 26, 99, 2721, 257, 173, 349, 712, 14066
