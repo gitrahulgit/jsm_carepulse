@@ -4,9 +4,12 @@ CarePulse is a comprehensive healthcare patient management system designed to fa
 
 <img src="https://github.com/gitrahulgit/jsm_carepulse/blob/main/public/assets/images/home-page-img.png" alt="Project Banner">
 
+## Contributers:
+This project was made possible by the collaborative efforts of a dedicated team. We extend our thanks to **V. Rahul**, **Sanket Satish Kale**, **Ankit Kumar**, and **Sonu Parmanik** for their invaluable contributions and commitment to bringing this project to life. Your hard work and teamwork are greatly appreciated!
 ## Table of Contents
 
 - [CarePulse - Patient Management System](#carepulse---patient-management-system)
+  - [Contributers:](#contributers)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Tech Stack](#tech-stack)
